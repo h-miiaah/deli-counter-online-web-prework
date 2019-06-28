@@ -8,6 +8,7 @@ def line(array_of_customers)
     message = "The line is currently:"
     array_of_customers.each_with_index do |customer, index|
       message += " #{index.to_i + 1}. #{customer}"
+    end
+    puts "#{message}"
   end
-  puts "#{message}"
 end
