@@ -19,3 +19,11 @@ def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{array.index(name) + 1} in line."
   return name, position_in_line
 end
+
+def now_serving(array)
+  if array.empty?
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{array.shift}"
+  end
+end
