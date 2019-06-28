@@ -11,4 +11,3 @@ def line(array_of_customers)
   end
   puts "#{message}"
 end
-
